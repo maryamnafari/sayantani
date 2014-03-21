@@ -1,0 +1,197 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+h1 {
+	margin: 0 0 0.2em 0;
+	padding: 0 0 0.2em 0;
+	border-bottom: 1px solid #000;
+}
+
+.pull-right {
+	float:right;
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+.h1-small {
+	font-size: 0.5em;
+	line-height: 2.5em;
+	color: #999;
+}
+
+.indent {
+	padding-left: 3.0em;
+	padding-bottom: 0.5em;
+}
+
+#resume-outer {
+	background-color: #fff;
+	width: 8.5in;
+	margin: 0 auto;
+	padding: 0;
+}
+
+	#resume-inner {
+		width: 6.5in;
+		padding: 1.0in;
+	}
+
+		#header {
+			margin: 0 0 2.0em 0;
+		}
+		
+			#address {
+				font-size: 0.8em;
+				text-align: right;
+			}
+			
+		.section {
+			margin: 0 0 1.3em 0;
+			padding: 0 0 1.3em 0;
+			overflow: hidden;
+			border-bottom: 1px dashed #e7e7e7;
+		}
+		
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style-type: square;
+			}
+			
+				.sub1 {
+					margin-left: 2.0em;
+					list-style-type: circle;
+				}
+			
+			li {
+				margin-bottom: 0.3em;
+				
+			}
+			
+			li:last-child {
+				margin-bottom: 0;
+			}
+			
+			.left50 {
+				display: inline-block;
+				width: 76%;
+				text-align: left;
+			}
+			
+			.left100 {
+				display: block;
+				text-align: left;
+			}
+			
+			.right50 {
+				float: right;
+				width: 23%;
+				text-align: right;
+			}
+			
+			.journal {
+				font-style: italic;
+			}
+			
+			.subsection {
+				font-weight: bold;
+			}
+		
+			dl {
+				margin: 0;
+				padding: 0;
+			}
+			
+			dt {
+				font-weight: bold;
+				margin: 0;
+				padding: 0 0.5in 0 0;
+				text-align: center;
+				float: left;
+				width: 1.0in;
+				text-align: left;
+			}
+			
+			dd {
+				margin: 0;
+				padding: 0;
+				width: 5.0in;
+				display: block;
+				float: left;
+			}
+			
+			.subsection {
+				font-weight: bold;
+			}
+			
+			.emph {
+				text-decoration: underline;
+			}
+		
+			p {
+				margin: 0 0 0.1em 0;
+				padding: 0;
+			}
+			
+			table {
+				padding: 0;
+				margin: 0;
+				border: 0;
+				width: 100%;
+			}
+			
+				tr {
+					
+				}
+				
+			
+				.break {
+					margin: 0 0 1.0em 0;
+					padding: 0 0 1.0em 0;
+				}
+				
+				.left {
+					text-align: left;
+					width: 50%;
+					font-style: italic;
+				}
+				
+				.middle {
+					text-align: center;
+					width: 16%;
+					font-style: italic;
+				}
+				
+				.right {
+					text-align: right;
+					width: 35%;
+					font-style: italic;
+				}
+
+				.list-left {
+					text-align: left;
+					width: 90%;
+				}
+				
+				.list-right {
+					text-align: right;
+					width: 10%;
+				}
+				
+				.list-left-mid {
+					text-align: left;
+					width: 80%;
+				}
+				
+				.list-right-mid {
+					text-align: right;
+					width: 20%;
+				}
+				
+				
