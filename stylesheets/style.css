@@ -4,7 +4,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13pt;
 	/*background-color: #34495e;*/
-	background-image: url('../images/figures/squared_metal.png');
+	background-color: #1abc9c; 
+	/*background-image: url('../images/figures/squared_metal.png');*/
 	/*padding-top: 10px;*/
 }
 
@@ -23,7 +24,8 @@ h2{
 }
 .dummy{
 	height:30px;
-	background-image: url('../images/figures/squared_metal.png');
+	background-color: #1abc9c;
+	/*background-image: url('../images/figures/squared_metal.png');*/
 	z-index: 999;
 	margin: 0;
 	padding: 0;
@@ -31,9 +33,11 @@ h2{
 
 .btn-group a:hover { border: 0 !important; }
 
+.btn-group a:active{ border-bottom: 2px solid #1abc9c!important}
+
 .menu:hover {
- 	border: 1px solid #fff !important; 
- 	color: red; 
+ 	/*border: 1px solid #fff !important; */
+ 	color: #e74c3c; 
  }
 
 .menu.active1 { color: #2ecc71; }
@@ -58,11 +62,18 @@ h2{
 	width: 20%;
 	text-align: center;
 	float: left;
+	background-color: #34495e;
+	border-left:#123456;
+	border-right:#123456 ;
+	padding-bottom:10px;
 }
 
+
 #nav li.current a { 
-	color: #123456;
+/*	color: #1abc9c;*/
 	font-weight: 900;
+	color: #1abc9c;
+	background-color:#123456;
 }
 
 img { max-width: 100%; }
@@ -123,9 +134,10 @@ i{
 }
 
 .menu{
-	background-color: #ffffff !important;
-	border-color: #ffffff;
-	color: #123456;
+	background-color: #34495e !important;
+	border-color: #34495e;
+	color: #fff;
+	/*color:#1abc9c;*/
 	margin-bottom: 2.0em;
 	font-family: 'Arvo', 'Open Sans', sans-serif;
 }
